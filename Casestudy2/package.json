@@ -1,0 +1,17 @@
+{
+  "name": "employee-app-backend-integration",
+  "version": "1.0.0",
+  "description": "Employee App backend integration assignment using Express, Mongoose, and MongoDB Atlas",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "check": "node --check app.js"
+  },
+  "keywords": ["nodejs", "express", "mongodb", "mongoose", "employee-app"],
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "mongoose": "^8.19.1"
+  }
+}
